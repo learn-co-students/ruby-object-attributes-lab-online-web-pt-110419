@@ -7,9 +7,10 @@ class Dog
     @name 
   end
   
-def breed (dogs_breed)
+def breed= (dogs_breed)
 @breed = "Beagle"
 end 
+
 def breed
   @breed
 end 
@@ -17,8 +18,3 @@ end
 
 end
 
-# dogs_bree.breed = "beagle"
-# beagle = Dog.new
-# # beagle.breed = "Beagle"
-
-# puts beagle.breed
